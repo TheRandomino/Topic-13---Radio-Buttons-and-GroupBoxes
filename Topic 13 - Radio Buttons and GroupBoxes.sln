@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic 13 - Radio Buttons and GroupBoxes", "Topic 13 - Radio Buttons and GroupBoxes.csproj", "{CE61E40D-1761-4905-ACDB-83781B3B598E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE61E40D-1761-4905-ACDB-83781B3B598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE61E40D-1761-4905-ACDB-83781B3B598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE61E40D-1761-4905-ACDB-83781B3B598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE61E40D-1761-4905-ACDB-83781B3B598E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30E2BE62-E2FB-4338-BD6C-B51DF628A762}
+	EndGlobalSection
+EndGlobal

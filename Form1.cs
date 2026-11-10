@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Topic_13___Radio_Buttons_and_GroupBoxes.Properties;
 
 namespace Topic_13___Radio_Buttons_and_GroupBoxes
 {
@@ -15,6 +16,21 @@ namespace Topic_13___Radio_Buttons_and_GroupBoxes
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void radRedCheck(object sender, EventArgs e)
+        {
+            imgSaber.Image = Resources.red_lightsaber;
+        }
+
+        private void radGreenCheck(object sender, EventArgs e)
+        {
+            imgSaber.Image = Resources.red_lightsaber;
+        }
+
+        private void radBlueCheck(object sender, EventArgs e)
+        {
+            imgSaber.Image = Resources.red_lightsaber;
         }
     }
 }

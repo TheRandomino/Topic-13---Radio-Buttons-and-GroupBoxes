@@ -73,6 +73,16 @@ namespace Topic_13___Radio_Buttons_and_GroupBoxes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap enterprise {
+            get {
+                object obj = ResourceManager.GetObject("enterprise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap green_lightsaber {
             get {
                 object obj = ResourceManager.GetObject("green lightsaber", resourceCulture);

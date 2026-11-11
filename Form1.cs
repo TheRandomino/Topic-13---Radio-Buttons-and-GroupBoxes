@@ -21,16 +21,54 @@ namespace Topic_13___Radio_Buttons_and_GroupBoxes
         private void radRedCheck(object sender, EventArgs e)
         {
             imgSaber.Image = Resources.red_lightsaber;
+            radRed.Enabled = false;
+            radGreen.Enabled = false;
+            radioBlue.Enabled = false;
         }
 
         private void radGreenCheck(object sender, EventArgs e)
         {
-            imgSaber.Image = Resources.red_lightsaber;
+            imgSaber.Image = Resources.green_lightsaber;
+            radRed.Enabled = false;
+            radGreen.Enabled = false;
+            radioBlue.Enabled = false;
         }
 
         private void radBlueCheck(object sender, EventArgs e)
         {
-            imgSaber.Image = Resources.red_lightsaber;
+            imgSaber.Image = Resources.blue_lightsaber;
+            radRed.Enabled = false;
+            radGreen.Enabled = false;
+            radioBlue.Enabled = false;
+        }
+
+        private void btnGuess_Click(object sender, EventArgs e)
+        {
+            if (radEnterprise.Checked)
+            {
+                lblAnswer.Text = "Answer: Correct!";
+                radEnterprise.Enabled = false;
+                radMilleniumFalcon.Enabled = false;
+                radTitanic.Enabled = false;
+            }
+            else if (radMilleniumFalcon.Checked)
+            {
+                lblAnswer.Text = "Answer: WROOOONG!";
+                radEnterprise.Enabled = false;
+                radMilleniumFalcon.Enabled = false;
+                radTitanic.Enabled = false;
+            }
+            else if (radTitanic.Checked)
+            {
+                lblAnswer.Text = "Answer: WROOOONG!";
+                radEnterprise.Enabled = false;
+                radMilleniumFalcon.Enabled = false;
+                radTitanic.Enabled = false;
+            }
+            else
+            {
+                lblAnswer.Text = "Answer: Please select an option";
+            }
         }
     }
 }
